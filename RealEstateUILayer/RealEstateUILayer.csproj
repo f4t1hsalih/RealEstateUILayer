@@ -183,6 +183,7 @@
     <Content Include="Views\Shared\_NewLayout.cshtml" />
     <Content Include="Views\Default\Index3.cshtml" />
     <Content Include="Views\Default\Index4.cshtml" />
+    <Content Include="Views\Default\Index5.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

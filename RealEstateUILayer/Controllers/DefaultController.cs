@@ -22,5 +22,9 @@ namespace RealEstateUILayer.Controllers
         {
             return View();
         }
+        public ActionResult Index5()
+        {
+            return View();
+        }
     }
 }
