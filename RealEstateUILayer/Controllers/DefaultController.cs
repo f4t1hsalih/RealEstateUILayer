@@ -13,5 +13,14 @@ namespace RealEstateUILayer.Controllers
         {
             return View();
         }
+
+        public ActionResult Index3()
+        {
+            return View();
+        }
+        public ActionResult Index4()
+        {
+            return View();
+        }
     }
 }
