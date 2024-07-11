@@ -63,6 +63,16 @@
     <Compile Include="Abstract\ISubscribeDal.cs" />
     <Compile Include="Abstract\ITestimonialDal.cs" />
     <Compile Include="Concrete\Context.cs" />
+    <Compile Include="EntityFramework\EfAddressDal.cs" />
+    <Compile Include="EntityFramework\EfCategoryDal.cs" />
+    <Compile Include="EntityFramework\EfContactDal.cs" />
+    <Compile Include="EntityFramework\EfCustomerDal.cs" />
+    <Compile Include="EntityFramework\EfFeatureDal.cs" />
+    <Compile Include="EntityFramework\EfFeatureServiceDal.cs" />
+    <Compile Include="EntityFramework\EfProductDal.cs" />
+    <Compile Include="EntityFramework\EfSocialMediaDal.cs" />
+    <Compile Include="EntityFramework\EfSubscribeDal.cs" />
+    <Compile Include="EntityFramework\EfTestimonialDal.cs" />
     <Compile Include="Migrations\202407111439428_mig_1.cs" />
     <Compile Include="Migrations\202407111439428_mig_1.Designer.cs">
       <DependentUpon>202407111439428_mig_1.cs</DependentUpon>
@@ -94,9 +104,7 @@
       <DependentUpon>202407111508080_mig_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityFramework\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
