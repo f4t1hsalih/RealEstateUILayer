@@ -52,6 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Concrete\Context.cs" />
+    <Compile Include="Migrations\202407111439428_mig_1.cs" />
+    <Compile Include="Migrations\202407111439428_mig_1.Designer.cs">
+      <DependentUpon>202407111439428_mig_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,7 +69,11 @@
       <Name>RealEstateEntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202407111439428_mig_1.resx">
+      <DependentUpon>202407111439428_mig_1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
