@@ -51,6 +51,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAddressDal.cs" />
+    <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IContactDal.cs" />
+    <Compile Include="Abstract\ICustomerDal.cs" />
+    <Compile Include="Abstract\IFeatureDal.cs" />
+    <Compile Include="Abstract\IFeatureServiceDal.cs" />
+    <Compile Include="Abstract\IGenericDal.cs" />
+    <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Abstract\ISocialMediaDal.cs" />
+    <Compile Include="Abstract\ISubscribeDal.cs" />
+    <Compile Include="Abstract\ITestimonialDal.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="Migrations\202407111439428_mig_1.cs" />
     <Compile Include="Migrations\202407111439428_mig_1.Designer.cs">
@@ -80,6 +91,10 @@
     <EmbeddedResource Include="Migrations\202407111508080_mig_2.resx">
       <DependentUpon>202407111508080_mig_2.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EntityFramework\" />
+    <Folder Include="Repository\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
