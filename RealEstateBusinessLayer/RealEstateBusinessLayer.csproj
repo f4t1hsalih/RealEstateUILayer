@@ -52,6 +52,7 @@
     <Compile Include="Abstract\ISocialMediaService.cs" />
     <Compile Include="Abstract\ISubscribeService.cs" />
     <Compile Include="Abstract\ITestimonialService.cs" />
+    <Compile Include="Concrete\CategoryManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,7 +66,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Concrete\" />
     <Folder Include="DIContainer\" />
     <Folder Include="ErrorMessages\" />
     <Folder Include="Logging\" />
